@@ -55,7 +55,7 @@ namespace OOPMysqlStudent
         /// Tábla kezdőadatokkal való feltöltése
         /// </summary>
         /// <param name="listOfData">Adatok listája</param>
-        public void pubDataInTable(List<Student> listOfData)
+        public void fillTableWithData(List<Student> listOfData)
         {
             try
             {

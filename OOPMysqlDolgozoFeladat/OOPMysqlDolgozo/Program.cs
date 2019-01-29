@@ -20,7 +20,7 @@ namespace OOPMysqlDolgozo
             employes.Add(new Employee(1, "Késő Kenéz", 21));
             employes.Add(new Employee(2, "Szorgalmas Szonja", 22));
             employes.Add(new Employee(3, "Programozó Péter", 23));
-            c.pubDataInTable(employes);
+            c.fillTableWithData(employes);
 
             c.showTable();
             c.add(new Employee(4,"Vezető Vera", 27));

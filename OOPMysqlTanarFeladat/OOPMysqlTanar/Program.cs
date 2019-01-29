@@ -13,7 +13,7 @@ namespace OOPMysqlTanar
 
 
             Controller c = new Controller();
-            c.initializeEmptyDatabase();
+            c.fillTableWithData();
 
             List<Teacher> employes;
             employes = new List<Teacher>();

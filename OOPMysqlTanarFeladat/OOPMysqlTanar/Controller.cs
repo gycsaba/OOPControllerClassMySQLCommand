@@ -33,7 +33,7 @@ namespace OOPMysqlTanar
         /// tmpDatabase adatbázis és abban tábla létehozása
         /// tábla feltöltése kezdőértékekkel
         /// </summary>
-        public void initializeEmptyDatabase()
+        public void fillTableWithData()
         {
             try
             {

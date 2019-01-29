@@ -20,7 +20,7 @@ namespace OOPMysqlStudent
             employes.Add(new Student(1, "Bukfenc Béla", 2.04));
             employes.Add(new Student(2, "Szorgalmas Szonja", 4.56));
             employes.Add(new Student(3, "Stréber Sára", 4.99));
-            c.pubDataInTable(employes);
+            c.fillTableWithData(employes);
 
             c.showTable();
             c.add(new Student(4,"Kitünő Kenéz", 5.00));

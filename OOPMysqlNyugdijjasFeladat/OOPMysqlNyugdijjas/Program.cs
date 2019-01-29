@@ -20,7 +20,7 @@ namespace OOPMysqlPensioner
             employes.Add(new Pensioner(1, "Beszélő Béla", 129000));
             employes.Add(new Pensioner(2, "Kerekező Kázmér", 150000));
             employes.Add(new Pensioner(3, "Teniszező Teri", 130000));
-            c.pubDataInTable(employes);
+            c.fillTableWithData(employes);
 
             c.showTable();
             c.add(new Pensioner(4,"Sétáló Sára", 210000));
